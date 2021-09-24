@@ -1,0 +1,19 @@
+{
+  "name": "hb_scaffold",
+  "version": "1.0.2",
+  "description": "learn_scaffold",
+  "main": "index.js",
+  "author": "hb",
+  "license": "ISC",
+  "private": true,
+  "bin": {
+    "hb_scaffold": "bin/index.js"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dependencies": {
+    "hb_scaffold-lib": "^1.0.0"
+  }
+}
